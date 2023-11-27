@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #f8fafc;
+}
+
+h1 {
+  color: black;
+}
+
+.header {
+  display: block; /* Ensures the logo is a block-level element */
+  text-align: center;
+}
+
+.header-img {
+  margin: 50px;
+}
+
+/* Apply layout properties */
+.navbar {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  justify-items: center;
+  text-align: center;
+}
+
+/* Style the navbar list */
+.navbar ul {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+/* Style the navbar list items */
+.navbar ul li {
+  display: inline;
+  margin-right: 10px; /* Adjust as needed for spacing between items */
+}
+
+/* Style the navbar links */
+.navbar ul li a {
+  text-decoration: none;
+  color: #000; /* Change the color as needed */
+}
+
+.hr {
+  margin-top: 20px;
+}
+
+.main-cont {
+  display: flex;
+}
+
+.left-cont {
+  width: 540px;
+  height: 450px;
+  background-color: balck;
+  color: black;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.right-cont {
+  margin-left: 60px;
+}
+
+.para {
+  margin-top: 20px;
+  margin-right: 130px;
+}
+
+.btn1 {
+  width: 180px;
+  padding: 15px;
+  background-color: #1492e6;
+  border: none;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.box-main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.box {
+  width: 308px;
+  height: 320px;
+  align-items: center;
+  display: inline;
+  justify-content: center;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 18px;
+  opacity: 1;
+}
+
+.h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.para2 {
+  margin: 20px;
+}
+
+.main-box2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.img-box {
+  height: 380px;
+  width: 330px;
+}
+
+.img3 {
+  width: 200px;
+  height: 200px;
+}
+
+.h3 {
+  margin: 20px;
+}
+
+.comments {
+  display: flex;
+  margin-left: 40px;
+  width: 400px;
+  margin-top: 80px;
+}
+
+.headin-com {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+.comments-para {
+  margin-left: 50px;
+  width: 600px;
+  margin-top: 10px;
+}
+
+.comments2 {
+  display: flex;
+  justify-content: right;
+  margin-top: 18px;
+  text-align: left;
+  margin-right: 230px;
+}
+
+.headin-com2 {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13px;
+}
+
+.comments-para2 {
+  width: 600px;
+  margin-top: 10px;
+  justify-content: right;
+  margin-left: 700px;
+  text-align: left;
+}
+
+.comments3 {
+  display: flex;
+  margin-left: 40px;
+  width: 400px;
+  margin-top: 18px;
+}
+
+.btn2 {
+  width: 180px;
+  padding: 15px;
+  background-color: #1492e6;
+  border: none;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.btn3 {
+  width: 180px;
+  padding: 15px;
+  background-color: #1492e6;
+  border: none;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-right: 200px;
+}
+
+.headin-com3 {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.fb-section {
+  width: 1097px;
+  height: 363px;
+  margin-left: 100px;
+  background: #F8FAFC 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 42px;
+  opacity: 1;
+  margin-top: 100px;
+}
+
+.fb {
+  width: 285px;
+  height: 263px;
+  background-color: red;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.fbs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.fbc {
+  display: flex;
+  margin: 15px;
+  justify-content: space-between;
+}
+
+.fb-li {
+  display: flex;
+}
+
+.fb-ul {
+  display: flex;
+  list-style: none;
+}
+
+.name {
+  margin-top: 5px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.fbp {
+  font-size: 13px;
+  margin: 15px;
+  margin-top: 30px;
+}
+
+.PARTNERS-MAIN {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+}
+
+.span {
+  margin: 30px;
+  margin-top: 40px;
+}
+
+.footer {
+  width: 100%;
+  height: 360px;
+  background-color: black;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-h1 {
+  color: #fff;
+  margin-top: 280px;
+}/*# sourceMappingURL=style.css.map */
